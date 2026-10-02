@@ -1,12 +1,14 @@
 class Solution:
     def removeDuplicates(self, nums: list[int]) -> int:
-        n = len(nums)
-        freq_map = {}
-
-        for i in range (0,n):
-            freq_map[nums[i]] = 0
-        j = 0
-        for k in freq_map:
-            nums[j] = k
-            j += 1
-        return j
+         if not nums:
+            return 0
+        
+         k = 0
+        
+         for i in range(1, len(nums)):
+            if nums[i] != nums[k]:
+                k += 1         
+                nums[k] = nums[i]  
+                
+         return k + 1
+    
