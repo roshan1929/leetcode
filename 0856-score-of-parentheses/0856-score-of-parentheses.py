@@ -1,11 +1,9 @@
 class Solution:
     def scoreOfParentheses(self, s: str) -> int:
-        stack = [0]
-        for char in s:
-            if char == '(':
-                stack.append(0)
-            else :
-                v = stack.pop()
-                stack[-1] += max(2 * v, 1)
-        return stack.pop()
-
+        ans = 0
+        layer = 0
+        for i in range(len(s) - 1):
+            if s[i] == '(' and s[i + 1] == ')':
+                ans += 1 << layer
+            layer += 1 if s[i] == '(' else -1
+        return ans
