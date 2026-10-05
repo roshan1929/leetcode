@@ -11,4 +11,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/roshan1929/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/roshan1929/leetcode/tree/master/0027-remove-element) |
+## String
+|  |
+| ------- |
+| [0856-score-of-parentheses](https://github.com/roshan1929/leetcode/tree/master/0856-score-of-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0856-score-of-parentheses](https://github.com/roshan1929/leetcode/tree/master/0856-score-of-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0856-score-of-parentheses](https://github.com/roshan1929/leetcode/tree/master/0856-score-of-parentheses) |
 <!---LeetCode Topics End-->
